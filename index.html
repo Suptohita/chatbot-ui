@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Chat Bot</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+	</head>
+	<body class="bg-gray-500">
+
+
+		<section>
+			<header>
+				<div class="font-bold text-center text-lg text-white">
+					Congo AI assignment
+				</div>
+			</header>
+
+			<div
+				class="
+					min-h-screen
+					w-screen
+					flex
+					justify-end
+					items-end
+					overflow-hidden
+					md:p-7
+					pl-3">
+				<div class="
+						bg-white
+						rounded-3xl
+						mb-10
+						animate__animated animate__bounceInRight" id="extended_chat">
+					<div
+						class="
+							bg-orange-500
+							pt-7
+							md:px-10
+							px-3
+							pb-32
+							rounded-t-2xl
+							animate__animated animate__fadeInDown animate__delay-1s">
+
+						<h1 class="text-white md:text-3xl text-xl font-medium">IRIS</h1>
+						<h1 class="text-white md:text-xl font-medium mt-2">Hello
+							<img class=" w-5 inline ml-2 animate__animated animate__headShake animate__delay-4s animate__repeat-3" src="./wave.svg" alt=""/>
+						</h1>
+
+						<h4 class="text-white md:text-lg text-sm mt-2">
+							I am Iris, a virtual Assistant , <br />
+							How may I help you?
+						</h4>
+					</div>
+
+					<div class="
+							md:mx-7
+							mx-3
+							bg-white
+							border
+							-mt-24
+							md:pb-10
+							pb-10
+							mb-8
+							rounded-2xl
+							animate__animated animate__backInUp">
+
+						<img class="bg-orange-600 inline ml-5 rounded-full w-12 pt-3 pb-3 px-2.5 animate__animated animate__zoomInRight animate__delay-2s" style="position: relative; bottom: 20px" src="./bot.png" alt=""/>
+
+						<h6 class="mx-6 font-semibold">
+							Frequently Asked Question
+							<span class="text-orange-500 font-extrabold">?</span>
+						</h6>
+
+						<h6 class="
+								p-4
+								border
+								mx-5
+								m-3
+								rounded-xl
+								border-gray-300
+								font-medium
+								text-sm
+								animate__animated animate__fadeInUp animate__delay-2s">
+							<span class="text-orange-500">◉</span> Can I redeem my FB before the original term?
+						</h6>
+
+						<h6 class="
+								p-4
+								border
+								mx-5
+								m-3
+								border-gray-300
+								rounded-xl
+								font-medium
+								text-sm
+								animate__animated animate__fadeInUp animate__delay-3s">
+							<span class="text-orange-500">◉</span> How do I pay my Credit card bill?
+						</h6>
+
+						<h6 class="
+								p-4
+								border
+								mx-5
+								m-3
+								border-gray-300
+								rounded-xl
+								font-medium
+								text-sm
+								animate__animated animate__fadeInUp animate__delay-4s">
+							<span class="text-orange-500">◉</span> How can I get my Account Statement?
+						</h6>
+
+						<h6 class="
+								md:p-3
+								p-2
+								rounded-full
+								md:mx-20
+								mx-10
+								border
+								text-center
+								mt-10
+								font-semibold
+								shadow-lg shadow-gray-300
+								text-sm
+								cursor-pointer
+								animate__animated animate__flipInX animate__delay-5s">
+							<img class="w-4 mr-2 inline" src="./chat.svg" alt="" /> Start a
+							New Conversation
+						</h6>
+
+					</div>
+				</div>
+
+				<span id="chat">
+					<h1
+						class="
+							text-4xl text-orange-500
+							bg-white
+							md:mx-4
+							m-3
+							mb-10
+							px-1.5
+							p-1
+							rounded-full
+							cursor-pointer
+						"
+						onclick="toggleFunction()"
+					>
+						🗪
+					</h1>
+				</span>
+			</div>
+
+			<h1 class="text-orange-400 text-center font-bold">@ Arvind Debnath</h1>
+		</section>
+
+
+		<script src="./app.js"></script>
+	</body>
+</html>
